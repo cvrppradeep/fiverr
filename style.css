@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    /*background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
+     background-color: #34495e;*/
+     
+    background:linear-gradient(150deg, #ff33339e 15%, #d9ff05de 70%, #ff7805 94%);
+}
+.box{
+    width: 230px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 2px 2px white;
+    background: #191919;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid yellow;/*#3498db;*/
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+::placeholder{
+    color: white;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 230px;
+    border-color:#ff7805;
+}
+.box input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ff7805;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type="button"]:hover{
+    background: #ff7805;
+    color: black;
+    
+}
+.social{
+    width: 200px;
+    margin:2px;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+p{
+    
+    
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: none;
+}
+.facebook{
+    background-color:darkblue;
+}
+.google{
+    background-color: orangered;
+}
+
+
